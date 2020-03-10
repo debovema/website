@@ -29,7 +29,7 @@ Vous devez utiliser une version de kubectl qui différe seulement d'une version 
 1. Téléchargez la dernière release avec la commande :
 
     ```
-    curl -LO https://storage.googleapis.com/kubernetes-release/release/$(curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt)/bin/linux/amd64/kubectl
+    curl -LO "https://storage.googleapis.com/kubernetes-release/release/$(curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt)/bin/linux/amd64/kubectl"
     ```
 
     Pour télécharger une version spécifique, remplacez `$(curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt)` avec la version spécifique.
